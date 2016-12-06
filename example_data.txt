@@ -1,0 +1,5 @@
+{
+        "is_authed": "1",
+        "sp_balance_quota": "100000",
+        "sp_card_quota": "2000000"
+}

@@ -1,0 +1,49 @@
+{
+    InspirationArticle =     (
+                {
+            ArticleID = 1;
+            Headline = "5 Dinge \U00fcber\U2026 Kork";
+            LastModification = 1464768625;
+            LeadingImage =             {
+                ImageHeight = 2251;
+                ImagePath = "http://87.106.243.35/egger_app/html/cms_images/list_01.jpg";
+                ImageWidth = 3000;
+            };
+            TopArticle = yes;
+        },
+                {
+            ArticleID = 2;
+            Headline = "Verbessern macht den Meister";
+            LastModification = 1464768625;
+            LeadingImage =             {
+                ImageHeight = 2255;
+                ImagePath = "http://87.106.243.35/egger_app/html/cms_images/list_02.jpg";
+                ImageWidth = 3000;
+            };
+            TopArticle = no;
+        },
+                {
+            ArticleID = 3;
+            Headline = "On the road again";
+            LastModification = 1464768625;
+            LeadingImage =             {
+                ImageHeight = 1990;
+                ImagePath = "http://87.106.243.35/egger_app/html/cms_images/list_03.jpg";
+                ImageWidth = 3000;
+            };
+            TopArticle = no;
+        },
+                {
+            ArticleID = 4;
+            Headline = "Rich in colour";
+            LastModification = 1464768625;
+            LeadingImage =             {
+                ImageHeight = 1803;
+                ImagePath = "http://87.106.243.35/egger_app/html/cms_images/list_04.jpg";
+                ImageWidth = 3000;
+            };
+            TopArticle = no;
+        }
+    );
+    "__name" = InspirationList;
+}
