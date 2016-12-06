@@ -1,6 +1,6 @@
 # 脚本简介
 
-> 作者：黄辉（huanghui05）  
+> 作者：huanghui  
 > 用于将字典解析成对应写好property的.h.m文件内容，并输出到shell
 
 # 使用方法
