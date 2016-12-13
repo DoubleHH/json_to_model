@@ -1,0 +1,373 @@
+{
+        "marketing_report": [
+                             {
+                                 "tab_content": "近 7 天",
+                                 "mktanalysis_overview": {
+                                     "title": "营销总览",
+                                     "date": "2016-12-05 至 2016-12-11",
+                                     "invest": {
+                                         "title": "营销投入",
+                                         "explanation_url": "",
+                                         "invest_total": 776.14,
+                                         "desc": "8 个活动 公告更新 0 次",
+                                         "activity_detail": [
+                                                             {
+                                                                 "name": "满赠活动",
+                                                                 "content": "0.00 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "预定优惠",
+                                                                 "content": "8.00 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "新用户优惠",
+                                                                 "content": "21.00 元",
+                                                                 "sub_content": "其中平台承担 16.00 元"
+                                                             },
+                                                             {
+                                                                 "name": "满减活动",
+                                                                 "content": "350.00 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "菜品营销",
+                                                                 "content": "263.14 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "下单返券",
+                                                                 "content": "72.00 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "进店领券",
+                                                                 "content": "6.00 元",
+                                                                 "sub_content": ""
+                                                             },
+                                                             {
+                                                                 "name": "新用户券",
+                                                                 "content": "56.00 元",
+                                                                 "sub_content": ""
+                                                             }
+                                                             ],
+                                         "shop_notice": "更新 0 次，最新更新时间 11月23日"
+                                         },
+                                     "benefit": {
+                                         "title": "营销收益",
+                                         "explanation_url": "",
+                                         "total_income": "13766.18",
+                                         "desc": "带来完成订单 213 单",
+                                         "benefit_detail": [
+                                                            {
+                                                                "col_1": "带来完成订单 213 单",
+                                                                "col_1_hl": 213,
+                                                                "col_2": "总订单： 643 单",
+                                                                "col_2_hl": ""
+                                                            },
+                                                            {
+                                                                "col_1": "带来流水 13766.18 元",
+                                                                "col_1_hl": "13766.18",
+                                                                "col_2": "总流水： 42340.30 元",
+                                                                "col_2_hl": ""
+                                                            },
+                                                            {
+                                                                "col_1": "参加活动顾客数 414 人",
+                                                                "col_1_hl": "414",
+                                                                "col_2": "总顾客数： 493 人",
+                                                                "col_2_hl": ""
+                                                            },
+                                                            {
+                                                                "col_1": "带来新顾客数 3 人",
+                                                                "col_1_hl": 3,
+                                                                "col_2": "总新顾客数： 7 人",
+                                                                "col_2_hl": ""
+                                                            }
+                                                            ],
+                                         "data_detail": {
+                                             "content": "数据详情",
+                                             "url": ""
+                                         }
+                                     }
+                                 },
+                                 "mktanalysis_detail": {
+                                     "title": "营销分析",
+                                     "list": [
+                                              {
+                                                  "title": "满减活动",
+                                                  "graph": [
+
+                                                  ],
+                                                  "word": [
+                                                           {
+                                                               "part1": "平均折扣 8.7 折,",
+                                                               "part1_hl": "8.7",
+                                                               "part2": "折扣高于 0% 的商圈商家。",
+                                                               "part2_hl": "0%"
+                                                           }
+                                                           ],
+                                                  "suggest": {
+                                                      "desc": {
+                                                          "name": "优化建议:",
+                                                          "content": "表现不错，继续保持。"
+                                                      }
+                                                  },
+                                                  "button": [
+
+                                                  ]
+                                              },
+                                              {
+                                                  "title": "菜品营销",
+                                                  "graph": [
+
+                                                  ],
+                                                  "word": [
+                                                           {
+                                                               "part1": "活动菜品数 21 个,",
+                                                               "part1_hl": "21",
+                                                               "part2": "少于 0% 的商圈商家",
+                                                               "part2_hl": "0%"
+                                                           },
+                                                           {
+                                                               "part1": "菜品折扣 8.3 折,",
+                                                               "part1_hl": "8.3",
+                                                               "part2": "折扣高于 0% 的商圈商家",
+                                                               "part2_hl": "0%"
+                                                           }
+                                                           ],
+                                                  "suggest": {
+                                                      "desc": {
+                                                          "name": "优化建议:",
+                                                          "content": "在同商圈很有竞争力。"
+                                                      }
+                                                  },
+                                                  "button": {
+                                                      "content": "查看明细数据",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "下单返券",
+                                                  "graph": [
+                                                            "发券张数 100 张",
+                                                            "领券张数 10 张",
+                                                            "已用张数 2 张"
+                                                            ],
+                                                  "word": [
+
+                                                  ],
+                                                  "suggest": {
+                                                      "data": [
+                                                               {
+                                                                   "content": "2%使用率",
+                                                                   "content_hl": "2%"
+                                                               },
+                                                               {
+                                                                   "content": "低于10%商圈商户",
+                                                                   "content_hl": "10%"
+                                                               }
+                                                               ],
+                                                      "desc": {
+                                                          "name": "优化建议:",
+                                                          "content": "还有提升空间。"
+                                                      }
+                                                  },
+                                                  "button": {
+                                                      "content": "去提升",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "进店领券",
+                                                  "graph": [
+                                                            "发券张数 100 张",
+                                                            "领券张数 10 张",
+                                                            "已用张数 2 张"
+                                                            ],
+                                                  "word": [
+
+                                                  ],
+                                                  "suggest": {
+                                                      "data": [
+                                                               {
+                                                                   "content": "2%使用率",
+                                                                   "content_hl": "2%"
+                                                               },
+                                                               {
+                                                                   "content": "低于19%商圈商户",
+                                                                   "content_hl": "19%"
+                                                               }
+                                                               ],
+                                                      "desc": {
+                                                          "name": "优化建议:",
+                                                          "content": "还有提升空间。"
+                                                      }
+                                                  },
+                                                  "button": {
+                                                      "content": "去提升",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "新用户券",
+                                                  "graph": [
+                                                            "发券张数 100 张",
+                                                            "领券张数 21 张",
+                                                            "已用张数 2 张"
+                                                            ],
+                                                  "word": [
+
+                                                  ],
+                                                  "suggest": {
+                                                      "data": [
+                                                               {
+                                                                   "content": "2%使用率",
+                                                                   "content_hl": "2%"
+                                                               },
+                                                               {
+                                                                   "content": "低于10%商圈商户",
+                                                                   "content_hl": "10%"
+                                                               }
+                                                               ],
+                                                      "desc": {
+                                                          "name": "优化建议:",
+                                                          "content": "还有提升空间。"
+                                                      }
+                                                  },
+                                                  "button": {
+                                                      "content": "去提升",
+                                                      "url": ""
+                                                  }
+                                              }
+                                              ]
+                                 },
+                                 "mktanalysis_reco": {
+                                     "title": "活动推荐",
+                                     "list": [
+                                              {
+                                                  "title": "揽客宝",
+                                                  "icon": "",
+                                                  "desc": "通过大数据精准挖掘附近口味相符，却从未光临本店的优质顾客，向其发放代金券，吸引进店消费",
+                                                  "compare": [
+
+                                                  ],
+                                                  "button": {
+                                                      "content": "去揽客",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "定向券",
+                                                  "icon": "",
+                                                  "desc": "精准发券，挽回流失顾客",
+                                                  "compare": [
+                                                              {
+                                                                  "content": "1000顾客已流失",
+                                                                  "content_hl": 1000
+                                                              }
+                                                              ]
+                                              },
+                                              {
+                                                  "title": "下单返券",
+                                                  "icon": "",
+                                                  "desc": "顾客到店下单成功, 立获本店代金券。",
+                                                  "compare": [
+                                                              {
+                                                                  "content": "0%同商圈商户参加",
+                                                                  "content_hl": "0%"
+                                                              }
+                                                              ],
+                                                  "button": {
+                                                      "content": "去发券",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "进店领券",
+                                                  "icon": "",
+                                                  "desc": "顾客到店直领代金券，激励顾客下单",
+                                                  "compare": [
+                                                              {
+                                                                  "content": "10万商家参加",
+                                                                  "content_hl": "10万"
+                                                              }
+                                                              ],
+                                                  "button": {
+                                                      "content": "去发券",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "新用户券",
+                                                  "icon": "",
+                                                  "desc": "新用户到店可以领取的专属优惠券",
+                                                  "compare": [
+                                                              {
+                                                                  "content": "10%新用户增长率",
+                                                                  "content_hl": "10%"
+                                                              },
+                                                              {
+                                                                  "content": "落后10商圈商户",
+                                                                  "content_hl": "10%"
+                                                              }
+                                                              ],
+                                                  "button": {
+                                                      "content": "去发券",
+                                                      "url": ""
+                                                  }
+                                              },
+                                              {
+                                                  "title": "菜品营销",
+                                                  "icon": "",
+                                                  "desc": "顾客下单即可享受特价菜优惠",
+                                                  "compare": [
+                                                              {
+                                                                  "content": "500万特价菜在售",
+                                                                  "content_hl": "500万"
+                                                              }
+                                                              ],
+                                                  "button": {
+                                                      "content": "去设置",
+                                                      "url": ""
+                                                  }
+                                              }
+                                              ]
+                                 }
+                             }
+                             ],
+        "explaination": [
+                         {
+                             "name": "营销投入:",
+                             "content": "在选定时间内，店铺有效的营销活动，以及对应活动的总补贴金额或投入行为，页面展示金额为总补贴金额，总金额=商家补贴+平台补贴"
+                         },
+                         {
+                             "name": "营销收益:",
+                             "content": "即带来流水。在选定时间内，店铺所有营销活动带来的总流水。"
+                         },
+                         {
+                             "name": "总流水:",
+                             "content": "在选定时间内，店铺总流水。"
+                         },
+                         {
+                             "name": "总订单:",
+                             "content": "在选定时间内, 店铺的总完成订单数。"
+                         },
+                         {
+                             "name": "参加活动顾客数:",
+                             "content": "在选定时间内，参加店铺营销活动下单的去重顾客数。同一个顾客，同一类活动下单2次，算一个顾客。不同活动分别下单，算2个顾客。"
+                         },
+                         {
+                             "name": "总下单顾客数:",
+                             "content": "在选定时间内，店铺总下单顾客数。顾客数进行去重。"
+                         },
+                         {
+                             "name": "带来新顾客数:",
+                             "content": "从未在本店下过单，通过营销活动下第1单的顾客数。"
+                         },
+                         {
+                             "name": "总新顾客数:",
+                             "content": "在选定时间内，店铺总新顾客数。"
+                         }
+                         ]
+    }
