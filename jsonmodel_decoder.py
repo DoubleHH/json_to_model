@@ -109,15 +109,6 @@ def printHeader(item,className):
 
 def print_implemention(className , mapKeys):
     implementation = ("@implementation %s" % (className)) + "Model\n"
-    if mapKeys != None and len(mapKeys) > 0:
-        implementation += "+ (NSDictionary *)modelContainerPropertyGenericClass {\n"
-        implementation += "    return @{\n"
-        value = ""
-        for k,v in mapKeys.items():
-            value += "        @\"%s\": [%s class],\n" % (k,v)
-        implementation += value
-        implementation += "    };\n"
-        implementation += "}\n\n"
     implementation += "+ (BOOL)propertyIsOptional:(NSString *)propertyName {\n"
     implementation += "    return YES;\n"
     implementation += "}\n"
