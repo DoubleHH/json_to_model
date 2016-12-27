@@ -78,6 +78,7 @@ def printHeader(item,className):
         return None
     global classList
     varlist = {}
+    protocols = []
     header = "@interface " + className + "Model" + " : JSONModel\n"
     for k , v in item.items():
         ktype = str(type(v))
@@ -99,12 +100,16 @@ def printHeader(item,className):
                 if nn == None :
                     varlist[pname] = composeClassName(className, k) + "Model"
                     header += "@property (nonatomic, strong) NSArray<%s> *%s;\n" % (varlist[pname], pname)
+                    protocols.append(varlist[pname])
                 else:
                     header += "@property (nonatomic, strong) NSArray *%s;" % (pname)
         else:
             header += "@property (nonatomic) typename<Optional>* %s;\n" % pname
+    protocol_string = ''
+    for value in protocols:
+        protocol_string += "@protocol %s\n@end\n" % (value)
     header += "@end"
-    print_color_string(header, "lred")
+    print_color_string(protocol_string + header, "lred")
     classList[className] = varlist
 
 def print_implemention(className , mapKeys):
