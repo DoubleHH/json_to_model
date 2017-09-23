@@ -104,7 +104,7 @@ def printHeader(item,className):
                 else:
                     header += "@property (nonatomic, strong) NSArray *%s;" % (pname)
         else:
-            header += "@property (nonatomic) typename<Optional>* %s;\n" % pname
+            header += "@property (nonatomic, strong) NSString *%s;\n" % pname
     protocol_string = ''
     for value in protocols:
         protocol_string += "@protocol %s\n@end\n" % (value)
