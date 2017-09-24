@@ -102,7 +102,7 @@ def printHeader(item,className):
                     header += "@property (nonatomic, strong) NSArray<%s> *%s;\n" % (varlist[pname], pname)
                     protocols.append(varlist[pname])
                 else:
-                    header += "@property (nonatomic, strong) NSArray *%s;" % (pname)
+                    header += "@property (nonatomic, strong) NSArray *%s;\n" % (pname)
         else:
             header += "@property (nonatomic, strong) NSString *%s;\n" % pname
     protocol_string = ''

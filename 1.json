@@ -1,0 +1,70 @@
+{
+    "success": true,
+    "data": {
+        "pageSize": 10,
+        "pages": 1,
+        "lastPage": true,
+        "firstPage": true,
+        "total": 3,
+        "list": [
+            {
+                "reportName": "报告名称1",
+                "reportType": "day",
+                "id": "402881455e31dd35015e31e091de0000",
+                "createUserId": "8a80cb815e03764a015e044fa8f60327",
+                "createUserName": "张达",
+                "receivePersonIds": [
+                    "33",
+                    "44"
+                ],
+                "description": "描述2222",
+                "createDate": "2017-08-30 14:42:34",
+                "generateCount": null,
+                "receivePersonNames": [
+                    "",
+                    ""
+                ]
+            },
+            {
+                "reportName": "报告名称2",
+                "reportType": "day",
+                "id": "402881455e322f20015e323100b60000",
+                "createUserId": "8a80cb815e03764a015e044fa8f60327",
+                "createUserName": "张达",
+                "receivePersonIds": [
+                    "8a80cb815e03764a015e044e0ed7031c",
+                    "8a80cb815e03764a015e044fa8f60327"
+                ],
+                "description": null,
+                "createDate": "2017-08-30 16:10:26",
+                "generateCount": null,
+                "receivePersonNames": [
+                    "马垣",
+                    "张达"
+                ]
+            },
+            {
+                "reportName": "报告名称3",
+                "reportType": "day",
+                "id": "402881455e32964b015e3303a8d80000",
+                "createUserId": "8a80cb815e03764a015e044fa8f60327",
+                "createUserName": "张达",
+                "receivePersonIds": [
+                    "402881455e2bc160015e2c8750000054",
+                    "8a80cb815e03764a015e044fa8f60327"
+                ],
+                "description": "描述11",
+                "createDate": "2017-08-30 20:00:31",
+                "generateCount": null,
+                "receivePersonNames": [
+                    "张益达",
+                    "张达"
+                ]
+            }
+        ],
+        "pageNum": 1
+    },
+    "errorCode": null,
+    "msg": "查询我创建的报告成功",
+    "detailMsg": ""
+}
