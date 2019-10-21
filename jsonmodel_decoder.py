@@ -19,6 +19,14 @@ COLORS  = {
     "lred": "1;31m",
 }
 
+class ClassInfo(object):
+	"""docstring for ClassInfo"""
+	def __init__(self, className, propertys):
+		super(ClassInfo, self).__init__()
+		self.className = className
+		self.propertys = propertys
+
+
 def print_color_string(string, color):
     print ("\033[" + COLORS[color])
     print string
@@ -80,18 +88,23 @@ def printHeader(item,className):
     varlist = {}
     protocols = []
     header = "@interface " + className + "Model" + " : JSONModel\n"
+    swiftHeader = "struct " + className + "Model" + ": Decodable {\n"
     for k , v in item.items():
         ktype = str(type(v))
         pname = unicode(k)
         if ktype == "<type 'int'>" or  ktype == "<type 'float'>":
             header += "@property (nonatomic, strong) NSNumber *%s;\n" % (pname)
+            swiftHeader += "	var " + pname + ": Int?\n"
         elif ktype == "<type 'bool'>":
             header += "@property (nonatomic, assign) BOOL %s;\n" % (pname)
+            swiftHeader += "	var " + pname + ": Bool?\n"
         elif ktype == "<type 'str'>" or ktype == "<type 'unicode'>":
             header += "@property (nonatomic, strong) NSString *%s;\n" % (pname)
+            swiftHeader += "	var " + pname + ": String?\n"
         elif ktype == "<type 'dict'>":
             classType = composeClassName(className, k) + "Model"
             header += "@property (nonatomic, strong) %s *%s;\n" % (classType, pname)
+            swiftHeader += "	var " + pname + ": " + classType + "?\n"
         elif ktype == "<type 'list'>":
             if len(v) > 0:
                 it = v[0]
@@ -101,6 +114,7 @@ def printHeader(item,className):
                     varlist[pname] = composeClassName(className, k) + "Model"
                     header += "@property (nonatomic, strong) NSArray<%s> *%s;\n" % (varlist[pname], pname)
                     protocols.append(varlist[pname])
+                    swiftHeader += "	var " + pname + ": [" + varlist[pname] + "]?\n"
                 else:
                     header += "@property (nonatomic, strong) NSArray *%s;\n" % (pname)
         else:
@@ -109,7 +123,8 @@ def printHeader(item,className):
     for value in protocols:
         protocol_string += "@protocol %s\n@end\n" % (value)
     header += "@end"
-    print_color_string(protocol_string + header, "lred")
+    # print_color_string(protocol_string + header, "lred")
+    print_color_string(swiftHeader + "}", "purple")
     classList[className] = varlist
 
 def print_implemention(className , mapKeys):
